@@ -5,7 +5,7 @@ import './App.css'
 import { AiOutlineSearch } from 'react-icons/fa';
 
 // API KEY - 76c27c99
-const API_URL = "http://www.omdbapi.com?apikey=76c27c99"
+const API_URL = "https://www.omdbapi.com?apikey=76c27c99"
 const movie1 = {
     "Title": "Spiderman the Verse",
     "Year": "2019",
