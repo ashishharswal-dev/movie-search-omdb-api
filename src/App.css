@@ -1,0 +1,66 @@
+
+body {
+    background-color: #121212;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.app-name {
+    color: #AB7C94;
+    font-family: Roboto, Arial;
+    text-align: center;
+}
+
+.search-container {
+    cursor: pointer;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    text-align: center;
+    border: none;
+}
+
+.search-bar {
+    width: 900px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #1f1d1d;
+    color: rgb(131, 127, 127);
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+}
+
+.search-bar::placeholder {
+    color: rgb(131, 127, 127);
+    font-family: Roboto, Arial;
+    font-size: 20px;
+}
+
+.search-bar:focus {
+    outline: none;
+    
+}
+
+.search-icon {
+    fill: #AB7C94;
+    height: 30px;
+    margin-left: -50px;
+    margin-top: 9px
+}
+.empty{
+    color: #AB7C94;
+    font-family: Roboto, Arial;
+    text-align: center;
+}
+.container{
+    margin-top: 100px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

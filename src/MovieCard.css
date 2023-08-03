@@ -1,0 +1,43 @@
+.movie {
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+.poster-div{
+    height: 324px;
+    width: 250px;
+   
+}
+
+.movie-poster {
+    height: 324px;
+    width: 250px;
+    border-top-left-radius:  15px; 
+    border-top-right-radius: 15px;
+}
+
+.movie-info {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(37, 42, 42);
+
+    border-bottom-left-radius:  15px; 
+    border-bottom-right-radius: 15px; 
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.movie-type {
+    color: white;
+    font-family: Roboto, Arial;
+}
+
+.movie-title {
+    color: #e7b7d0;
+    font-family: Roboto, Arial;
+    margin:2px;
+}
